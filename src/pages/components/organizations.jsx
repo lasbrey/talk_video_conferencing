@@ -1,14 +1,29 @@
 import React from "react";
 
-function CustomerLogos() {
+function Organizations() {
   return (
-    <section class="bg-white dark:bg-gray-900">
-      <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-       
-        <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
-          <span href="#" class="flex justify-center items-center">
+    <div className="px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 max-w-7xl mx-auto mt-4 lg:mt-10 py-5 lg:py-10">
+      <div className="lg:col-span-6 ">
+        <p className="text-4xl text-slate-900 font-medium">
+          Powering organizations across industries and geographies
+        </p>
+        <p className="lg:mt-10 text-xl font-thin">
+          Zoom helps consolidate communications, connect people, and collaborate
+          better together in the boardroom, classroom, operating room, and
+          everywhere in between.
+        </p>
+        <p
+          class="group inline-flex items-center mt-5 justify-center rounded-full py-3 px-4 text-md font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-blue-600 text-white hover:text-slate-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600"
+          href="/register"
+        >
+          <span> Explore Industry Solutions</span>
+        </p>
+      </div>
+      <div className="lg:col-span-6">
+      <div class="grid grid-cols-2 lg:gap-2 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-2 dark:text-gray-400 lg:mt-0 sm:mt-5">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-9 hover:text-gray-900 dark:hover:text-white"
+              class="h-9"
               viewBox="0 0 125 35"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -21,9 +36,9 @@ function CustomerLogos() {
               />
             </svg>
           </span>
-          <span href="#" class="flex justify-center items-center">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-9 hover:text-gray-900 dark:hover:text-white"
+              class="h-9"
               viewBox="0 0 86 29"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -36,9 +51,9 @@ function CustomerLogos() {
               />
             </svg>
           </span>
-          <span href="#" class="flex justify-center items-center">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-8 hover:text-gray-900 dark:hover:text-white"
+              class="h-8"
               viewBox="0 0 151 34"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +76,9 @@ function CustomerLogos() {
               </defs>
             </svg>
           </span>
-
-          <span href="#" class="flex justify-center items-center">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-9 hover:text-gray-900 dark:hover:text-white"
+              class="h-9"
               viewBox="0 0 124 38"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -75,9 +89,9 @@ function CustomerLogos() {
               />
             </svg>
           </span>
-          <span href="#" class="flex justify-center items-center">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-9 hover:text-gray-900 dark:hover:text-white"
+              class="h-9"
               viewBox="0 0 137 37"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -156,9 +170,9 @@ function CustomerLogos() {
               />
             </svg>
           </span>
-          <span href="#" class="flex justify-center items-center">
+          <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
-              class="h-6 hover:text-gray-900 dark:hover:text-white"
+              class="h-6"
               viewBox="0 0 124 21"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -215,8 +229,8 @@ function CustomerLogos() {
           </span>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
-export default CustomerLogos;
+export default Organizations;
