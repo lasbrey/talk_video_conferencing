@@ -60,7 +60,7 @@ function Nav({toggleState}) {
 
   return (
     <>
-      {/* <div className="bg-blue-900">
+      <div className="bg-blue-900">
         <ul className="flex py-2 justify-end text-[14px]">
           <li className="px-3 text-white cursor-pointer hover:text-black">
             Support
@@ -79,7 +79,7 @@ function Nav({toggleState}) {
             {buttons.logOut}
           </li>
         </ul>
-      </div> */}
+      </div>
       <header className="py-5">
         <div className=" px-4 sm:px-6 lg:px-8">
           <nav className="relative z-50 flex justify-between">
