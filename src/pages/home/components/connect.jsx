@@ -2,16 +2,16 @@ import React from "react";
 
 function Connect() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-[87rem] mx-auto px-6 lg:px-8">
       <div className=" grid gap-5 lg:grid-cols-12  mt-4 lg:mt-10 py-5 lg:py-10">
-        <div className="lg:col-span-6">
+        <div className="lg:col-span-6 lg:order-1 order-2">
           <img
             src="https://i.pcmag.com/imagery/roundups/02VdaftDvo0TZxKvLhj00hF-3..v1620935850.jpg"
             alt=""
             className="w-full h-full rounded-xl"
           />
         </div>
-        <div className="lg:col-span-6 lg:px-20">
+        <div className="lg:col-span-6 lg:px-20 lg:order-2 order-1">
           <p className="text-4xl font-medium">
             Connect in the office or remotely
           </p>
@@ -23,8 +23,8 @@ function Connect() {
           </p>
         </div>
       </div>
-      <div className="grid gap-10 grid-cols-3">
-        <div>
+      <div className="lg:grid gap-10 grid-cols-3">
+        <div className="mt-4 lg:mt-0">
           <p className="font-medium text-xl ">
             Dial-in phone numbers for every meeting.
           </p>
@@ -35,7 +35,7 @@ function Connect() {
             calling support.
           </p>
         </div>
-        <div>
+        <div className="mt-4 lg:mt-0">
           <p className="font-medium text-xl ">
             Integrated with Talk Workspace.
           </p>
@@ -46,7 +46,7 @@ function Connect() {
             details.
           </p>
         </div>
-        <div>
+        <div className="mt-4 lg:mt-0">
           <p className="font-medium text-xl ">
             Works with other meeting solutions too.
           </p>

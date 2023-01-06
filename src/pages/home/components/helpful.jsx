@@ -3,7 +3,7 @@ import React from "react";
 function Helpful() {
   return (
     <div className="">
-      <div className="px-4 sm:px-6 lg:px-8 grid gap-5 lg:grid-cols-12 max-w-7xl mx-auto mt-4 lg:mt-10 py-5 lg:py-10">
+      <div className="px-6 lg:px-8 grid gap-5 lg:grid-cols-12 max-w-[87rem] mx-auto mt-4 lg:mt-10 py-5 lg:py-10">
         <div className="lg:col-span-6">
           <p className="text-4xl font-medium">Enjoy frictionless meetings</p>
           <p className="lg:mt-10 text-xl font-thin ">

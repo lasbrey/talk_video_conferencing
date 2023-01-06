@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="max-w-[87rem] mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
         <div>
           <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase">
@@ -10,24 +10,16 @@ function Footer() {
           </h2>
           <ul className="text-gray-500">
             <li className="mb-4">
-              <a href="#" className=" hover:underline">
-                About
-              </a>
+              <p className=" hover:underline"> About</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Careers
-              </a>
+              <p className="hover:underline"> Careers</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Brand Center
-              </a>
+              <p className="hover:underline"> Brand Center</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Blog
-              </a>
+              <p className="hover:underline"> Blog</p>
             </li>
           </ul>
         </div>
@@ -37,24 +29,16 @@ function Footer() {
           </h2>
           <ul className="text-gray-500">
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Discord Server
-              </a>
+              <p className="hover:underline"> Discord Server</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Twitter
-              </a>
+              <p className="hover:underline"> Twitter</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Facebook
-              </a>
+              <p className="hover:underline"> Facebook</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Contact Us
-              </a>
+              <p className="hover:underline"> Contact Us</p>
             </li>
           </ul>
         </div>
@@ -64,19 +48,13 @@ function Footer() {
           </h2>
           <ul className="text-gray-500">
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Privacy Policy
-              </a>
+              <p className="hover:underline"> Privacy Policy</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Licensing
-              </a>
+              <p className="hover:underline"> Licensing</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Terms &amp; Conditions
-              </a>
+              <p className="hover:underline"> Terms &amp; Conditions</p>
             </li>
           </ul>
         </div>
@@ -86,38 +64,27 @@ function Footer() {
           </h2>
           <ul className="text-gray-500">
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                iOS
-              </a>
+              <p className="hover:underline"> iOS</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Android
-              </a>
+              <p className="hover:underline"> Android</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                Windows
-              </a>
+              <p className="hover:underline"> Windows</p>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">
-                MacOS
-              </a>
+              <p className="hover:underline"> MacOS</p>
             </li>
           </ul>
         </div>
       </div>
-      <div className="py-6 px-4   md:flex md:items-center md:justify-between">
+      <div className="py-6 px-4 lg:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500  sm:text-center">
-          © 2022 <a href="https://flowbite.com/">Talk Workspace</a>. All Rights
-          Reserved.
+          © 2022 <span className="">Talk Workspace</span>. All Rights Reserved.
         </span>
+        <br />
         <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-900 "
-          >
+          <p className="text-gray-400 hover:text-gray-900 ">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -131,11 +98,8 @@ function Footer() {
               />
             </svg>
             <span className="sr-only">Facebook page</span>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-900"
-          >
+          </p>
+          <p className="text-gray-400 hover:text-gray-900">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -149,11 +113,8 @@ function Footer() {
               />
             </svg>
             <span className="sr-only">Instagram page</span>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-900"
-          >
+          </p>
+          <p className="text-gray-400 hover:text-gray-900">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -163,11 +124,8 @@ function Footer() {
               <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
             </svg>
             <span className="sr-only">Twitter page</span>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-900"
-          >
+          </p>
+          <p className="text-gray-400 hover:text-gray-900">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -181,11 +139,8 @@ function Footer() {
               />
             </svg>
             <span className="sr-only">GitHub account</span>
-          </a>
-          <a
-            href="#"
-            className="text-gray-400 hover:text-gray-900"
-          >
+          </p>
+          <p className="text-gray-400 hover:text-gray-900">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -199,7 +154,7 @@ function Footer() {
               />
             </svg>
             <span className="sr-only">Dribbble account</span>
-          </a>
+          </p>
         </div>
       </div>
     </footer>

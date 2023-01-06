@@ -4,7 +4,7 @@ import { NotificationsActiveOutlined } from "@mui/icons-material";
 function HeroSection() {
   return (
     <section class="bg-white">
-      <div class="grid max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="grid max-w-[87rem] px-4 sm:px-6 lg:px-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-5">
           <div class="sm:mb-8 sm:flex ">
             <div class="relative overflow-hidden rounded-full py-1.5 px-4 text-[12px] leading-6 ring-1 ring-gray-900/10 hover:bg-gray-400/20 cursor-pointer">
@@ -33,7 +33,7 @@ function HeroSection() {
             secure, and Talk is included with Talk Workspace, Talk Workspace
             Essentials, and Talk Workspace for Education.
           </p>
-          <div className="flex gap-2">
+          <div className="flex gap-2 lg:mb-0 mb-10">
             <a
               class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-md font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-blue-600 text-white hover:text-slate-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600"
               href="/register"

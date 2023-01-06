@@ -1,27 +1,43 @@
-import React from "react";
-import Nav from "./pages/navigation.jsx";
-import HeroSection from "./pages/components/herosection.jsx";
-import Solutions from "./pages/components/solutions.jsx";
-import Organizations from "./pages/components/organizations.jsx";
-import Helpful from "./pages/components/helpful.jsx";
-import Connect from "./pages/components/connect.jsx";
-import Banner from "./pages/components/banner.jsx";
-import Footer from "./pages/footer.jsx";
+import React, { Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ThemedSuspense from "./components/ThemedSuspense";
+import { AuthContextProvider } from "./context/authContext";
+import Protected from "./components/Protected";
+import AccessibleNavigationAnnouncer from "./components/AccessibleNavigationAnnouncer.jsx";
+import routes from "./routes/index";
+import Page404 from "./pages/404";
+import Home from "./pages/home/home";
+import Login from "./pages/Auth/login";
+import Signup from "./pages/Auth/signup";
 
 function App() {
+  const routeComponents = routes.map((route, i) => (
+    <Route
+      exact
+      path={route.path}
+      element={
+        <Protected>
+          <route.component />
+        </Protected>
+      }
+      key={i}
+    />
+  ));
   return (
-    <>
-      <Nav />
-      <main>
-        <HeroSection />
-        <Solutions />
-        <Organizations />
-        <Helpful />
-        <Connect />
-        <Banner />
-      </main>
-      <Footer />
-    </>
+    <AuthContextProvider>
+      <BrowserRouter>
+        <AccessibleNavigationAnnouncer />
+        <Suspense fallback={<ThemedSuspense />}>
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/login" exact element={<Login />} />
+            <Route path="/register" exact element={<Signup />} />
+            {routeComponents}
+            <Route path="*" element={<Page404 />} />
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
+    </AuthContextProvider>
   );
 }
 

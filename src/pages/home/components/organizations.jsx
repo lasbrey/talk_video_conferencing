@@ -2,7 +2,7 @@ import React from "react";
 
 function Organizations() {
   return (
-    <div className="px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 max-w-7xl mx-auto mt-4 lg:mt-10 py-5 lg:py-10">
+    <div className="px-6 lg:px-8 grid lg:grid-cols-12 max-w-[87rem] mx-auto mt-4 lg:mt-10 py-5 lg:py-10">
       <div className="lg:col-span-6 ">
         <p className="text-4xl text-slate-900 font-medium">
           Powering organizations across industries and geographies
@@ -20,7 +20,7 @@ function Organizations() {
         </p>
       </div>
       <div className="lg:col-span-6">
-      <div class="grid grid-cols-2 lg:gap-2 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-2 dark:text-gray-400 lg:mt-0 sm:mt-5">
+      <div class="grid grid-cols-2 lg:gap-2 text-gray-500 gap-2 md:grid-cols-3 lg:grid-cols-2 dark:text-gray-400 lg:mt-0 mt-5">
           <span href="#" class="flex justify-center items-center cursor-pointer border border-gray-400 p-10 rounded-xl hover:border-blue-900 hover:text-blue-900 hover:shadow-sm hover:shadow-blue-900">
             <svg
               class="h-9"
